@@ -31,14 +31,36 @@
 
         <section class="formulaire">
             <form action="" method="post">
-                Nom : <input type="text" name="nom" id="nom" ><br>
-                Prénom : <input type="text" name="prenom" id="prenom"><br>
-                Age : <input type="number" name="age" id="age">ans<br> 
-                N° de téléphone : <input type="text" name="numero" id="numero"><br>
-                Adresse : <textarea></textarea><br>
-                Identifiant : <input type="text" name="identifiant" id="identifiant"><br>
-                Mot de passe : <input type="password" name="mdp" id="mdp"><br>
-                Adresse e-mail : <input type="email" name="email" id="email"><br>
+                Nom : <input class="option" type="text" name="nom" id="nom" ><br>
+
+                Prénom : <input class="option" type="text" name="prenom" id="prenom"><br>
+
+                Age : <input class="option" type="number" name="age" id="age">ans<br> 
+
+                N° de téléphone : <input class="option" type="text" name="numero" id="numero"><br>
+
+                <label for="pet-select">Lieu de retrait :</label>
+                <select class="option" name="pets" id="pet-select">
+                    <option value="">Séléctionez votre point de retrait</option>
+                    <option value="dog">Montbrison</option>
+                    <option value="cat">Saint-Etienne</option>
+                    <option value="hamster">Paris</option>
+                    <option value="parrot">Lyon</option>
+                    <option value="spider">Lille</option>
+                    <option value="goldfish">Marseille</option>
+                    <option value="goldfish">Nantes</option>
+                    <option value="goldfish">Bordeaux</option>
+                    <option value="goldfish">Grenoble</option>
+                    <option value="goldfish">Brest</option>
+                </select>
+            </form>
+
+            <form action="" method="POST">
+                Identifiant : <input class="option" type="text" name="identifiant" id="identifiant"><br>
+
+                Mot de passe : <input class="option" type="password" name="mdp" id="mdp"><br>
+
+                Adresse e-mail : <input class="option" type="email" name="email" id="email"><br>
             </form>
             <a href="https://nathan42-dev.github.io/nathan42validation.github.io/">Valider</a>
 
