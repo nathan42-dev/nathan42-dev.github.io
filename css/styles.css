@@ -90,20 +90,38 @@ nav.nav li a {
 .button {
     background-color: #73b504;
     color: white;
+    border: none;
+    border-radius: 2px;
     padding: 1em 1.5em;
     position: relative;
     text-decoration: none;
     display: inline-block;
 }
 
+.button:hover {
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+
 .button-annuler {
     background-color: red;
     color: white;
+    border: none;
+    border-radius: 2px;
     padding: 1em 1.5em;
     position: relative;
     text-decoration: none;
     display: inline-block;
 }
+
+.button-annuler:hover {
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
 
 
 
